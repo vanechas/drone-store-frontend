@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Mainard';
+    src: url('fonts/Mainard.otf') format('truetype');
+}
+
+body {
+    font-family: 'Mainard';
+    margin: 0;
+    padding: 0;
+    background-color: #06141b;
+    color: #ffffff;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.hero {
+    position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;     
+    max-width: 1440px;
+}
+
+#hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill; 
+    z-index: -1; 
+}
+
+.hero-content {
+    position: relative;
+    text-align: left;
+    align-items: center;
+    color: white;
+    z-index: 1; 
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* VISION */
+.vision {
+    width: 150vh;
+    margin: auto;  
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Mainard';
+    font-size: 36px;
+    background-color: #06141b;
+    margin-bottom: 60px;
+}
+
+/* Products Section */
+.products {
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: #FFF;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: auto; 
+}
+
+.product-box {
+    position: relative; 
+    display: inline-block;
+    background-color: #ccc;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.product-box.large {
+    width: 1076px;
+    height: 416.682px;
+    border-radius: 10px;
+    margin-bottom: 40px; 
+}
+
+.product-box.medium {
+    max-width: 1076px;
+    width: 285px;
+    height: 321px;
+    border-radius: 10px;
+    margin: 0; 
+}
+
+.product-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.products h1 {
+    color: #06141B;
+}
+
+.product-title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    align-items: center; 
+    padding-left: 20px; 
+    box-sizing: border-box;
+}
+
+.product-title-overlay h2 {
+    position: static; 
+    width: auto;
+    color: #ffffff; 
+    text-align: left;
+    margin: 0;
+    font-family: 'Mainard';
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: normal;
+    z-index: 2;
+}
+
+.product-group-bottom {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 110px; 
+    flex-wrap: wrap; 
+    margin-top: 0; 
+    width: 100%; 
+}
+
+.cta-button {
+display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 233px;
+    height: 53px;
+    background-color: #06141b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Mainard;
+    margin: 20px auto 40px auto;
+}
+
+/* INNOVATION */
+.innovation {
+    margin-top: 40px;
+}
+
+.innovation h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Mainard;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.innovation-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.innovation-box {
+    width: 50vh;
+    max-width: 100%; 
+    height: auto;
+    width: 30%; 
+    height: auto; 
+}
+
+.innovation-box img {
+    width: 100%;
+    height: auto;
+}
+
+/* EXPERTISE */
+.expertise {
+    margin: 40px auto;
+    background: #FFF;
+    width: 100%;
+    height: 815px;
+    padding-bottom: 40px; 
+    display: block;        
+}
+
+.expertise h1 {
+    color: var(--d-9-d-9-d-9, #06141B);
+    text-align: center;
+    font-family: Mainard;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.expertise h2 {
+    color: var(--d-9-d-9-d-9, #06141B);
+    text-align: center;
+    font-family: Mainard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.expertise p {
+    color: var(--d-9-d-9-d-9, #06141B);
+    text-align: center;
+    font-family: Mainard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.expertise-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.expertise-box {
+    width: 390px;
+    height: 390px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.expertise-img {
+    width: 390px;
+    height: 390px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.expertise-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    .vision {
+        width: 100%;
+        font-size: 28px;
+        padding: 0 20px;
+    }
+
+    .innovation-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .innovation-box {
+        width: 80%;
+    }
+
+    .expertise {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .expertise-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .expertise-box,
+    .expertise-img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .products {
+        margin: 20px;
+    }
+
+    .product-box.large {
+        width: 100%;
+    }
+
+    .product-group-bottom {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .product-box.medium {
+        width: 100%;
+    }
+
+    .cta-button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .expertise-box,
+    .expertise-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .vision {
+        font-size: 22px;
+    }
+
+    .product-box.large,
+    .product-box.medium {
+        width: 100%;
+        height: auto;
+    }
+
+    .expertise h1 {
+        font-size: 28px;
+    }
+
+    .expertise h2 {
+        font-size: 20px;
+    }
+
+    .expertise p {
+        font-size: 14px;
+    }
+}
