@@ -49,7 +49,9 @@ A multi-page responsive front-end website featuring an interactive product catal
 └── README.md
 ```
 
-🚀 How to Run Locally
+---
+
+## 🚀 How to Run Locally
 Clone this repository:
 ```
 Bash
@@ -61,5 +63,7 @@ Double-click index.html to open it in your browser[cite: 5], or
 
 Use the Live Server extension in VS Code for live reloading.
 
-🎨 UI/UX Design
+---
+
+## 🎨 UI/UX Design
 The initial mockups and user flow wireframes were created using Figma and are documented in the Figma Files/ and Mock Up/ folders[cite: 5].
